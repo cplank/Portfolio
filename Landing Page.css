@@ -1,0 +1,27 @@
+body, html {
+    height: 100%    
+}
+
+.banner-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(CarrieWallace.jpg);
+    height: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translate (-50%, -50%);
+    color: rgb(161, 204, 247);
+}
+
+body {
+    background-color: #a1ccf7;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+}
