@@ -1,0 +1,120 @@
+body, html {
+    height: 100%    
+}
+
+.banner-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Seattle_banner.jpg);
+    height: 48%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text {
+    color: white;    
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;    
+}
+
+body {
+    background-color: #a1ccf7;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+}
+
+.menu-images {
+    position: relative;
+}
+
+.blog-image {
+    background-image: url(Blog_Button.jpg);
+    width: 350px;
+    height: 350px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 30px;
+    position: relative;
+    bottom: 20px;
+}
+
+.blog-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+.portfolio-image {
+    background-image: url(Portfolio_Button.jpg);
+    width: 350px;
+    height: 350px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.portfolio-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+.aboutme-image {
+    background-image: url(AboutMe_Button.jpg);
+    width: 350px;
+    height: 350px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    
+}
+
+.aboutme-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
