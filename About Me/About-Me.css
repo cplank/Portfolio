@@ -32,6 +32,24 @@ body, html {
     font-size: 100px;    
 }
 
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    transition: all 500ms;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 50px;
+    font-size-adjust: 20px;
+}
+
 body {
     background-color: #a1ccf7;
     margin: 0px 0px 0px 0px;
