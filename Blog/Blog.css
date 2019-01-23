@@ -3,7 +3,7 @@ body, html {
 }
 
 .banner-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Portfolio_Banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(blog_banner.jpg);
     height: 48%;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,42 +54,4 @@ body {
     background-color: #a1ccf7;
     margin: 0px 0px 0px 0px;
     padding: 0;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.portfolio-header {
-    font-family: 'Amatic SC', cursive;
-    font-size: 30px;
-    color: white;
-}
-
-p {
-    padding: 0px;
-}
-
-.belldandy-images {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
-@media screen and (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
 }
