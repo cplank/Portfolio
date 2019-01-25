@@ -61,9 +61,10 @@ body {
 }
 
 .portfolio-header {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Overlock', cursive;
     font-size: 30px;
-    color: white;
+    color: #331a00;
+    padding-left: 10px;
 }
 
 p {
