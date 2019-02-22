@@ -1,55 +1,70 @@
 <!DOCTYPE html>
 <html>
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
-
 
 <head>
+    <title>Carrie's Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <div class="banner-image">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="banner-image" id="myTopnav">
         <link rel="stylesheet" type="text/css" href="Landing_Page.css" />
         <div class="banner-text">
             <div class="bottom-right">
-                <a href="/Landing_Page/index.html">Home</a> |
-                <a href="/Blog/Blog.html">Blog</a> |
-                <a href="/Portfolio/portfolio.html">Portfolio</a> |
+                <a href="/Landing_Page/index.html">Home</a>
+                <a href="/Blog/Blog.html">Blog</a>
+                <a href="/Portfolio/portfolio.html">Portfolio</a>
                 <a href="/About-Me/About-Me.html">About Me</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
             <div class="centered">Carrie Plank</div>
         </div>
     </div>
-    </div>
-</head>
-
-<body>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <br>
     <br>
     <br>
-    <div class="menu-images">
+    <div class="flex-container">
         <div class="blog-image">
-            <div class="overlay">
-                <a href="/Blog/Blog.html">
-                    <div class="blog-text">
+            <div class="blog-text">
+                <div class="overlay">
+                    <a href="/Blog/Blog.html">
                         <h2>Blog</h2>
-                    </div>
+                </div>
             </div>
         </div>
+
         <div class="portfolio-image">
-            <div class="overlay">
-                <a href="/Portfolio/portfolio.html">
-                    <div class="portfolio-text">
+            <div class="portfolio-text">
+                <div class="overlay">
+                    <a href="/Portfolio/portfolio.html">
                         <h3>Portfolio</h3>
-                    </div>
+                </div>
             </div>
         </div>
         <div class="aboutme-image">
-            <div class="overlay">
-                <a href="/About-Me/About-Me.html">
-                    <div class="aboutme-text">
+            <div class="aboutme-text">
+                <div class="overlay">
+                    <a href="/About-Me/About-Me.html">
                         <h4>About Me</h4>
-                    </div>
+                </div>
             </div>
         </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x =
+                document.getElementById("myTopnav");
+            if (x.className === "banner-image") {
+                x.className += " responsive";
+            } else {
+                x.className = "banner-image";
+            }
+        }
+    </script>
 
 
 
