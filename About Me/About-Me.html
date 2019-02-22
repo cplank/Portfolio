@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Overlock" rel="stylesheet">
 
 <head>
+    <title>About Carrie</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overlock" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <div class="banner-image">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="banner-image" id="myTopnav">
         <link rel="stylesheet" type="text/css" href="About-Me.css" />
         <div class="banner-text">
             <div class="bottom-right">
-                <a href="/Landing_Page/index.html" class="af af-lp"> Home</a> |
-                <a href="/Blog/Blog.html" class="af af-b">Blog</a> |
-                <a href="/Portfolio/portfolio.html" class="af af-p">Portfolio </a>|
+                <a href="/Landing_Page/index.html" class="af af-lp"> Home</a>
+                <a href="/Blog/Blog.html" class="af af-b">Blog</a>
+                <a href="/Portfolio/portfolio.html" class="af af-p">Portfolio </a>
                 <a href="/About-Me/About-Me.html" class="af af-am">About Me</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="af af-bars"></i>
+                </a>
             </div>
         </div>
     </div>
@@ -20,41 +28,47 @@
     </div>
     </div>
     </div>
-</head>
-
-<body>
     <br>
     <br>
     <br>
     <div class="aboutme">
         <img src="Carrie_Full.jpg" id="Carrie-image" alt="CarrieinAustria" style="width: 400px;height:610px;">
-        <div class="aboutme-text">
-            <p>Aspiring web developer, scooter enthusiast, pretty darn good cook.
-                <br>
-                <br>
-                Cat lover, video gamer, runner, pianist.
-                <br>
-                <br>
-                Relationship builder, data analyst, excellent prospect researcher, comfortable making the ask.
-                <br>
-                <br>
-                Traveler, dirty dish avoider. My go-to house warming gift is homemade cloth napkins.
-                <br>
-                <br>
-                Loving Seattle since 2011.
-                <div class="social">
-                    <meta name="viewport" content="width=device-width, initial-scale=1">
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                    <a href="https://twitter.com/cplankshepard" class="fa fa-twitter"></a>
-                    <a href="https://www.linkedin.com/in/carrie-plank-22526861/" class="fa fa-linkedin"></a>
-                </div>
-        </div>
+        <p>Aspiring web developer, scooter enthusiast, pretty darn good cook.
+            <br>
+            <br>
+            Cat lover, video gamer, runner, pianist.
+            <br>
+            <br>
+            Relationship builder, data analyst, excellent prospect researcher, comfortable making the ask.
+            <br>
+            <br>
+            Traveler, dirty dish avoider. My go-to house warming gift is homemade cloth napkins.
+            <br>
+            <br>
+            Loving Seattle since 2011.
+            <div class="social">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="https://twitter.com/cplankshepard" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/carrie-plank-22526861/" class="fa fa-linkedin"></a>
+            </div>
+    </div>
 
 
-        </p>
+    </p>
     </div>
 
     </div>
+    <script>
+        function myFunction() {
+            var x =
+                document.getElementById("myTopnav");
+            if (x.className === "banner-image") {
+                x.className += " responsive";
+            } else {
+                x.className = "banner-image";
+            }
+        }
+    </script>
 
 
 
