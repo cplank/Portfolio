@@ -32,20 +32,20 @@ body, html {
     font-size: 100px;    
 }
 
-a:link {
+.nav-links:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
     transition: all 500ms;
 }
 
-a:visited {
+.nav-links:visited {
     color: white;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:hover {
+.nav-links:hover {
     font-size: 50px;
     font-size-adjust: 20px;
 }
@@ -75,6 +75,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    
 }
 
 .column {
@@ -107,12 +108,22 @@ p {
         opacity: .8;
         
     }
+  
 
-    .portfolio-grab :hover {
-        font-size: 20px;
+    .git-link:hover {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+        transition: all 500ms;
     }
 
-
+    .git-link:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+    
     @media screen and (max-width: 800px) {
     .column {
         flex: 50%;
