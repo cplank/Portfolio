@@ -85,7 +85,7 @@ p {
 .github {
     position: absolute;
     right: 20px;
-    bottom: 30px;
+    top: 10px;
     z-index:3;
 }
 
