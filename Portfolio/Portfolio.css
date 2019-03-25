@@ -78,6 +78,17 @@ p {
     
 }
 
+.project-image {
+    z-index: 1;
+}
+
+.github {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    z-index:3;
+}
+
 .column {
     flex: 25%;
     max-width: 25%;
